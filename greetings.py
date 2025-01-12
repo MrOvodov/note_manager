@@ -1,6 +1,4 @@
-username, title, content, status = 'Ovodov AV','Studying at SkillPlace','Variables','Active'
-created_date='10-01-2025'
-issue_date='01-10-2025'
+username, title, content, status,created_date,issue_date = 'Ovodov AV','Studying at SkillPlace','Variables','Active','10-01-2025','01-10-2025'
 print('Имя пользователя:',username,end=';\n')
 print('Заголовок заметки:', title,end=';\n')
 print('Описание заметки:',content,end=';\n')
