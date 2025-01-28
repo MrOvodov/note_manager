@@ -1,7 +1,7 @@
-cur_status = "В процессе."
+cur_status = "В процессе"
 status_lst = [1,2,3]
 msg = (f"Текущий статус заметки: {cur_status}\n"
-       f"Выберите новый статус заметки."
+       f"Выберите новый статус заметки.\n"
        f"Доступные статусы:\n"
        f"1. Выполнено\n"
        f"2. В процессе\n"
@@ -17,16 +17,16 @@ while True:
             print("Некорректный ввод. Попробуйте ещё раз.")
         else:
             if new_status_int == 1:
-                new_status_txt = "Выполнено."
+                new_status_txt = "Выполнено"
             elif new_status_int == 2:
-                new_status_txt = "В процессе."
+                new_status_txt = "В процессе"
             elif new_status_int == 3:
-                new_status_txt = "Отложено."
+                new_status_txt = "Отложено"
             if new_status_txt == cur_status:
                 print("Статус совпадает.")
             else:
                 cur_status=new_status_txt
-                print(f"Статус заявки успешно обновлён на {cur_status}.")
+                print(f"Статус заявки успешно обновлён на '{cur_status}'.")
                 break
 
 
